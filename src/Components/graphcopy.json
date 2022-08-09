@@ -1,0 +1,101 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "sentiment": 0.9123311638832092,
+            "id": "@utdsid06"
+        },
+        {
+            "sentiment": 0.9868112802505493,
+            "id": "@ahmedcalii"
+        },
+        {
+            "sentiment": 0.9368882179260254,
+            "id": "@suhail18191"
+        },
+        {
+            "sentiment": 0.6665335297584534,
+            "id": "@mufcrdv20"
+        },
+        {
+            "sentiment": 0.6306962966918945,
+            "id": "@maxwellivan3"
+        },
+        {
+            "sentiment": 0.6230994462966919,
+            "id": "@ground_guru"
+        },
+        {
+            "sentiment": 0.9868112802505493,
+            "id": "@utd_freddy"
+        },
+        {
+            "sentiment": 0.6066650748252869,
+            "id": "@aaz_b"
+        },
+        {
+            "sentiment": 0.5711227059364319,
+            "id": "@evan_g13"
+        },
+        {
+            "sentiment": 0.6875171065330505,
+            "id": "@utd__reddevils"
+        },
+        {
+            "sentiment": 0.5779170989990234,
+            "id": "@jutdfan1"
+        },
+        {
+            "sentiment": 0.9392743110656738,
+            "id": "@justmufc_"
+        }
+    ],
+    "links": [
+        {
+            "source": "@utdsid06",
+            "target": "@ground_guru"
+        },
+        {
+            "source": "@ahmedcalii",
+            "target": "@ground_guru"
+        },
+        {
+            "source": "@suhail18191",
+            "target": "@ground_guru"
+        },
+        {
+            "source": "@mufcrdv20",
+            "target": "@ground_guru"
+        },
+        {
+            "source": "@maxwellivan3",
+            "target": "@ground_guru"
+        },
+        {
+            "source": "@utd_freddy",
+            "target": "@ground_guru"
+        },
+        {
+            "source": "@aaz_b",
+            "target": "@ground_guru"
+        },
+        {
+            "source": "@evan_g13",
+            "target": "@ground_guru"
+        },
+        {
+            "source": "@utd__reddevils",
+            "target": "@ground_guru"
+        },
+        {
+            "source": "@jutdfan1",
+            "target": "@ground_guru"
+        },
+        {
+            "source": "@justmufc_",
+            "target": "@ground_guru"
+        }
+    ]
+}
