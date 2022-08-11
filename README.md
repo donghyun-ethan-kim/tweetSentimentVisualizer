@@ -1,6 +1,6 @@
-# React + Flask Application
+# Tweet Sentiment Visualizer
 
-This is an application which contains a connected flask backend to a react frontend
+Built with a flask backend and React frontend
 
 ## Backend
 Step1: Enter the backend directory and create and activate your environment:
@@ -33,5 +33,3 @@ Next, run `npm start` to start the frontend section of the application.
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Testing the application
-Click on the button that appears on the page to make the request to the API endpoint in the backend. 
