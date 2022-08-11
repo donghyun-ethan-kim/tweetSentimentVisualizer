@@ -1,7 +1,4 @@
 {
-    "directed": true,
-    "multigraph": false,
-    "graph": {},
     "nodes": [
         {
             "sentiment": 0.9123311638832092,

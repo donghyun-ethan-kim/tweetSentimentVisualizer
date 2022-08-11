@@ -1,0 +1,129 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "sentiment": 0.5128585696220398,
+            "id": "@jcahun"
+        },
+        {
+            "sentiment": 0.8980417847633362,
+            "id": "@hmzunited"
+        },
+        {
+            "sentiment": 0.6057602763175964,
+            "id": "@williamfarias02"
+        },
+        {
+            "sentiment": 0.9029096961021423,
+            "id": "@conalmcd_06"
+        },
+        {
+            "sentiment": 0.5764745473861694,
+            "id": "@prt_r_nair"
+        },
+        {
+            "sentiment": 0.7053684592247009,
+            "id": "@freddyutd"
+        },
+        {
+            "sentiment": 0.5726327300071716,
+            "id": "@djwebz1"
+        },
+        {
+            "sentiment": 0.6338025331497192,
+            "id": "@giovannamorais_"
+        },
+        {
+            "sentiment": 0.5223158597946167,
+            "id": "@osioshio"
+        },
+        {
+            "sentiment": 0.5494294762611389,
+            "id": "@xutdangel"
+        },
+        {
+            "sentiment": 0.6838595271110535,
+            "id": "@thomasosimbo5"
+        },
+        {
+            "sentiment": 0.8377614617347717,
+            "id": "@runitedftbll"
+        },
+        {
+            "sentiment": 0.9428609609603882,
+            "id": "@musicminds12"
+        },
+        {
+            "sentiment": 0.5969243049621582,
+            "id": "@kiki_tiv"
+        },
+        {
+            "sentiment": 0.8649453520774841,
+            "id": "@_samueld_"
+        }
+    ],
+    "links": [
+        {
+            "source": "@jcahun",
+            "target": "@runitedftbll"
+        },
+        {
+            "source": "@hmzunited",
+            "target": "@runitedftbll"
+        },
+        {
+            "source": "@williamfarias02",
+            "target": "@williamfarias02"
+        },
+        {
+            "source": "@conalmcd_06",
+            "target": "@runitedftbll"
+        },
+        {
+            "source": "@prt_r_nair",
+            "target": "@runitedftbll"
+        },
+        {
+            "source": "@freddyutd",
+            "target": "@runitedftbll"
+        },
+        {
+            "source": "@djwebz1",
+            "target": "@runitedftbll"
+        },
+        {
+            "source": "@giovannamorais_",
+            "target": "@williamfarias02"
+        },
+        {
+            "source": "@osioshio",
+            "target": "@runitedftbll"
+        },
+        {
+            "source": "@xutdangel",
+            "target": "@runitedftbll"
+        },
+        {
+            "source": "@thomasosimbo5",
+            "target": "@runitedftbll"
+        },
+        {
+            "source": "@musicminds12",
+            "target": "@runitedftbll"
+        },
+        {
+            "source": "@musicminds12",
+            "target": "@williamfarias02"
+        },
+        {
+            "source": "@kiki_tiv",
+            "target": "@williamfarias02"
+        },
+        {
+            "source": "@_samueld_",
+            "target": "@runitedftbll"
+        }
+    ]
+}

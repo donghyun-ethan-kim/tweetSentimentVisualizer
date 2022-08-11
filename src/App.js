@@ -2,10 +2,12 @@ import { useState } from 'react'
 import axios from "axios";
 import logo from './logo.svg';
 import './App.css';
-import graph from './Components/d3graph'
+import {ForceGraph2D} from 'react-force-graph';
+import graphData from './Components/graphcopy.json';
+import data from './Components/miserables.json'
 function App() {
+
 /*
-   // new line start
   const [profileData, setProfileData] = useState(null)
 
   function getData() {
@@ -25,10 +27,16 @@ function App() {
         console.log(error.response.headers)
         }
     })}
-    //end of new line 
+    */
 
+    //end of new line 
   return (
-    <div className="App">
+      <div>
+        <ForceGraph2D
+          graphData={graphData}
+        />
+      </div>
+    /*<div className="App">
       <header className="App-header">
         {}
         <p>To get your profile details: </p><button onClick={getData}>Click me</button>
@@ -39,13 +47,8 @@ function App() {
         }
          {}
       </header>
-    </div>
-  );
-  */
-  return (
-    <div>
-      <graph/>
-    </div>
+    </div>*/
+
   );
 
 

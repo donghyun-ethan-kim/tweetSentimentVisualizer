@@ -4,98 +4,142 @@
     "graph": {},
     "nodes": [
         {
-            "sentiment": 0.9123311638832092,
-            "id": "@utdsid06"
+            "sentiment": 0.7926253080368042,
+            "id": "@thomasosimbo5"
         },
         {
-            "sentiment": 0.9868112802505493,
-            "id": "@ahmedcalii"
+            "sentiment": 0.576567530632019,
+            "id": "@giovannamorais_"
         },
         {
-            "sentiment": 0.9368882179260254,
-            "id": "@suhail18191"
+            "sentiment": 0.9921780228614807,
+            "id": "@android64704100"
         },
         {
-            "sentiment": 0.6665335297584534,
-            "id": "@mufcrdv20"
+            "sentiment": 0.5027059316635132,
+            "id": "@prt_r_nair"
         },
         {
-            "sentiment": 0.6306962966918945,
-            "id": "@maxwellivan3"
+            "sentiment": 0.8592500686645508,
+            "id": "@musicminds12"
         },
         {
-            "sentiment": 0.6230994462966919,
-            "id": "@ground_guru"
+            "sentiment": 0.6009787321090698,
+            "id": "@osioshio"
         },
         {
-            "sentiment": 0.9868112802505493,
-            "id": "@utd_freddy"
+            "sentiment": 0.5001013278961182,
+            "id": "@freddyutd"
         },
         {
-            "sentiment": 0.6066650748252869,
-            "id": "@aaz_b"
+            "sentiment": 0.9156330823898315,
+            "id": "@runitedftbll"
         },
         {
-            "sentiment": 0.5711227059364319,
-            "id": "@evan_g13"
+            "sentiment": 0.9308189153671265,
+            "id": "@conalmcd_06"
         },
         {
-            "sentiment": 0.6875171065330505,
-            "id": "@utd__reddevils"
+            "sentiment": 0.8960630297660828,
+            "id": "@_samueld_"
         },
         {
-            "sentiment": 0.5779170989990234,
-            "id": "@jutdfan1"
+            "sentiment": 0.6954106092453003,
+            "id": "@xutdangel"
         },
         {
-            "sentiment": 0.9392743110656738,
-            "id": "@justmufc_"
+            "sentiment": 0.5274463295936584,
+            "id": "@kiki_tiv"
+        },
+        {
+            "sentiment": 0.9228770732879639,
+            "id": "@brendan_mufc"
+        },
+        {
+            "sentiment": 0.8857263326644897,
+            "id": "@hmzunited"
+        },
+        {
+            "sentiment": 0.6597931385040283,
+            "id": "@jcahun"
+        },
+        {
+            "sentiment": 0.5607454776763916,
+            "id": "@williamfarias02"
+        },
+        {
+            "sentiment": 0.5483496785163879,
+            "id": "@djwebz1"
         }
     ],
     "links": [
         {
-            "source": "@utdsid06",
-            "target": "@ground_guru"
+            "source": "@thomasosimbo5",
+            "target": "@runitedftbll"
         },
         {
-            "source": "@ahmedcalii",
-            "target": "@ground_guru"
+            "source": "@giovannamorais_",
+            "target": "@williamfarias02"
         },
         {
-            "source": "@suhail18191",
-            "target": "@ground_guru"
+            "source": "@android64704100",
+            "target": "@runitedftbll"
         },
         {
-            "source": "@mufcrdv20",
-            "target": "@ground_guru"
+            "source": "@prt_r_nair",
+            "target": "@runitedftbll"
         },
         {
-            "source": "@maxwellivan3",
-            "target": "@ground_guru"
+            "source": "@musicminds12",
+            "target": "@williamfarias02"
         },
         {
-            "source": "@utd_freddy",
-            "target": "@ground_guru"
+            "source": "@musicminds12",
+            "target": "@runitedftbll"
         },
         {
-            "source": "@aaz_b",
-            "target": "@ground_guru"
+            "source": "@osioshio",
+            "target": "@runitedftbll"
         },
         {
-            "source": "@evan_g13",
-            "target": "@ground_guru"
+            "source": "@freddyutd",
+            "target": "@runitedftbll"
         },
         {
-            "source": "@utd__reddevils",
-            "target": "@ground_guru"
+            "source": "@conalmcd_06",
+            "target": "@runitedftbll"
         },
         {
-            "source": "@jutdfan1",
-            "target": "@ground_guru"
+            "source": "@_samueld_",
+            "target": "@runitedftbll"
         },
         {
-            "source": "@justmufc_",
-            "target": "@ground_guru"
+            "source": "@xutdangel",
+            "target": "@runitedftbll"
+        },
+        {
+            "source": "@kiki_tiv",
+            "target": "@williamfarias02"
+        },
+        {
+            "source": "@brendan_mufc",
+            "target": "@thomasosimbo5"
+        },
+        {
+            "source": "@hmzunited",
+            "target": "@runitedftbll"
+        },
+        {
+            "source": "@jcahun",
+            "target": "@runitedftbll"
+        },
+        {
+            "source": "@williamfarias02",
+            "target": "@williamfarias02"
+        },
+        {
+            "source": "@djwebz1",
+            "target": "@runitedftbll"
         }
     ]
 }

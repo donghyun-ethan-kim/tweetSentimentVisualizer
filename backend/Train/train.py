@@ -8,7 +8,7 @@ import re
 from networkx.readwrite import json_graph
 import json
 import json
-
+import pickle
 
 #a = model.predict("Which baking dish is best to bake a banana bread ?", k=2)
 #print(a[1][0]) #: positive
@@ -155,6 +155,7 @@ def returnJson():
     #y = json.loads(x)
     #return y
     model = fasttext.train_supervised('Train/tweets.train')
+
     #model = fasttext.train_supervised('tweets.train')
 
     twintSearch()
