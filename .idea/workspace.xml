@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bf4b88f0-ac30-4783-9bd1-456423a69d9a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/Train/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Train/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/soccer-tweets.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/soccer-tweets.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/graphcopy.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/graphcopy.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
       <workItem from="1660064094100" duration="3765000" />
       <workItem from="1660094062794" duration="573000" />
       <workItem from="1660094686251" duration="11655000" />
-      <workItem from="1660281088952" duration="16514000" />
+      <workItem from="1660281088952" duration="20949000" />
     </task>
     <servers />
   </component>
