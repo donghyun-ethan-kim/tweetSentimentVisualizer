@@ -1,98 +1,117 @@
 {
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
     "nodes": [
         {
-            "sentiment": 0.9123311638832092,
-            "id": "@utdsid06"
+            "sentiment": 0.7387741208076477,
+            "id": "@besarwicaks"
         },
         {
-            "sentiment": 0.9868112802505493,
-            "id": "@ahmedcalii"
+            "sentiment": 0.5424008369445801,
+            "id": "@frizkiramadhani"
         },
         {
-            "sentiment": 0.9368882179260254,
-            "id": "@suhail18191"
+            "sentiment": 0.6928414702415466,
+            "id": "@cangkir_nemu"
         },
         {
-            "sentiment": 0.6665335297584534,
-            "id": "@mufcrdv20"
+            "sentiment": 0.6280215978622437,
+            "id": "@davidlsnza02"
         },
         {
-            "sentiment": 0.6306962966918945,
-            "id": "@maxwellivan3"
+            "sentiment": 0.5886691212654114,
+            "id": "@idextratime"
         },
         {
-            "sentiment": 0.6230994462966919,
-            "id": "@ground_guru"
+            "sentiment": 0.8478192687034607,
+            "id": "@se_yuwono_"
         },
         {
-            "sentiment": 0.9868112802505493,
-            "id": "@utd_freddy"
+            "sentiment": 0.5098797082901001,
+            "id": "@yosefkristiano"
         },
         {
-            "sentiment": 0.6066650748252869,
-            "id": "@aaz_b"
+            "sentiment": 0.5930375456809998,
+            "id": "@marineboyss"
         },
         {
-            "sentiment": 0.5711227059364319,
-            "id": "@evan_g13"
+            "sentiment": 0.7445635199546814,
+            "id": "@igiekakurniawan"
         },
         {
-            "sentiment": 0.6875171065330505,
-            "id": "@utd__reddevils"
+            "sentiment": 0.8059847354888916,
+            "id": "@phoenix6768"
         },
         {
-            "sentiment": 0.5779170989990234,
-            "id": "@jutdfan1"
+            "sentiment": 0.6334578990936279,
+            "id": "@revonugroho"
         },
         {
-            "sentiment": 0.9392743110656738,
-            "id": "@justmufc_"
+            "sentiment": 0.5349552631378174,
+            "id": "@indonesiarust"
+        },
+        {
+            "sentiment": 0.604767918586731,
+            "id": "@bijikudamantap"
+        },
+        {
+            "sentiment": 0.7006417512893677,
+            "id": "@ar7dotcom"
         }
     ],
     "links": [
         {
-            "source": "@utdsid06",
-            "target": "@ground_guru"
+            "source": "@besarwicaks",
+            "target": "@idextratime"
         },
         {
-            "source": "@ahmedcalii",
-            "target": "@ground_guru"
+            "source": "@frizkiramadhani",
+            "target": "@idextratime"
         },
         {
-            "source": "@suhail18191",
-            "target": "@ground_guru"
+            "source": "@cangkir_nemu",
+            "target": "@idextratime"
         },
         {
-            "source": "@mufcrdv20",
-            "target": "@ground_guru"
+            "source": "@davidlsnza02",
+            "target": "@idextratime"
         },
         {
-            "source": "@maxwellivan3",
-            "target": "@ground_guru"
+            "source": "@se_yuwono_",
+            "target": "@idextratime"
         },
         {
-            "source": "@utd_freddy",
-            "target": "@ground_guru"
+            "source": "@yosefkristiano",
+            "target": "@idextratime"
         },
         {
-            "source": "@aaz_b",
-            "target": "@ground_guru"
+            "source": "@marineboyss",
+            "target": "@idextratime"
         },
         {
-            "source": "@evan_g13",
-            "target": "@ground_guru"
+            "source": "@igiekakurniawan",
+            "target": "@idextratime"
         },
         {
-            "source": "@utd__reddevils",
-            "target": "@ground_guru"
+            "source": "@phoenix6768",
+            "target": "@idextratime"
         },
         {
-            "source": "@jutdfan1",
-            "target": "@ground_guru"
+            "source": "@revonugroho",
+            "target": "@idextratime"
         },
         {
-            "source": "@justmufc_",
-            "target": "@ground_guru"
+            "source": "@indonesiarust",
+            "target": "@idextratime"
+        },
+        {
+            "source": "@bijikudamantap",
+            "target": "@idextratime"
+        },
+        {
+            "source": "@ar7dotcom",
+            "target": "@idextratime"
         }
     ]
 }

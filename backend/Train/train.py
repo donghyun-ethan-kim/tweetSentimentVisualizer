@@ -166,7 +166,7 @@ def returnJson():
     with open('graph.json', 'w') as f:
         json.dump(returnedList, f, indent=4)
 
-    #return json.dumps(returnedList)
+    return json.dumps(returnedList)
     #print(json.dumps(returnedList))
     #print(returnedList)
     # jsonStr = json.dumps(returnedList)

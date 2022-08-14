@@ -1,8 +1,9 @@
-from flask import Flask
+from flask import Flask, jsonify
 from Train.train import returnJson
 import json
 
 returnVal = returnJson()
+y = json.loads(returnVal)
 
 #print(returnVal.nodes)
 api = Flask(__name__)
@@ -12,13 +13,8 @@ api = Flask(__name__)
 #    return returnVal
 
 
-@api.route('/profile')
-def my_profile():
-    response_body = {
-        "name": "Nagato",
-        "about" : returnVal
-    }
-
-    return response_body
+@api.route('/data')
+def data():
+    return returnVal
 
 

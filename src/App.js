@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import logo from './logo.svg';
 import './App.css';
@@ -6,34 +6,76 @@ import {ForceGraph2D} from 'react-force-graph';
 import graphData from './Components/graphcopy.json';
 import data from './Components/miserables.json'
 function App() {
+    const [color, setColor] = useState("red")
+    const [gdata, setgData] = useState([
+      {
+            sentiment: 0.7387741208076477,
+            id: "@id1"
+      },
 
-/*
-  const [profileData, setProfileData] = useState(null)
+      {
+            sentiment: 0.7387741208076477,
+            id: "@id2"
+      }
+    ])
+
+    const [links, setLinks] = useState([
+      {
+            source: "@id1",
+            target: "@id2"
+      }
+    ])
+
+
+
+    useEffect(() => {
+
+     }, [gdata]);
+
+    useEffect(() => {
+        console.log(links);
+     }, [links]);
+
 
   function getData() {
     axios({
       method: "GET",
-      url:"/profile",
+      url:"/data",
     })
     .then((response) => {
-      const res =response.data
-      setProfileData(({
-        node_info: res.directed,
-        link_info: res.multigraph}))
-    }).catch((error) => {
-      if (error.response) {
-        console.log(error.response)
-        console.log(error.response.status)
-        console.log(error.response.headers)
-        }
-    })}
-    */
 
-    //end of new line 
+        for (let i = 0; i < response.data.nodes.length; i++) {
+
+            let nObj = response.data.nodes[i]
+            let linkObj = response.data.links[i]
+            setgData(array => [...array, nObj]);
+
+            //setLinks(array => [...array, linkObj])
+        }
+        for (let i = 0; i < response.data.nodes.length; i++) {
+
+            let nObj = response.data.nodes[i]
+            let linkObj = response.data.links[i]
+            //setgData(array => [...array, nObj]);
+
+            setLinks(array => [...array, linkObj])
+        }
+        
+    })
+  }
+
+  useEffect(() => {
+    getData();
+  }, []);
+
+    //end of new line
+
   return (
+      // <div> {gdata[gdata.length - 1]["sentiment"]} </div>
+
       <div>
         <ForceGraph2D
-          graphData={graphData}
+          graphData={{ nodes: gdata, links: links }}
           nodeAutoColorBy="sentiment"
           nodeCanvasObject={(node, ctx, globalScale) => {
             const label = node.id;
@@ -60,6 +102,8 @@ function App() {
           }}
         />
       </div>
+
+
     /*<div className="App">
       <header className="App-header">
         {}
