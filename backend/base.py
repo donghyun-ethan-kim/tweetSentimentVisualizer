@@ -17,7 +17,8 @@ api = Flask(__name__)
 @api.route('/search', methods=['GET'])
 def search():
     args = request.args.get('topic')
-    returnVal = returnJson("Georgia Tech", model)
+    print(args)
+    returnVal = returnJson(args, model)
     return returnVal
 
 @api.route('/data')

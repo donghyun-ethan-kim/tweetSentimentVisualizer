@@ -8,6 +8,8 @@ import re
 from networkx.readwrite import json_graph
 import json
 import json
+import os
+
 import pickle
 
 #a = model.predict("Which baking dish is best to bake a banana bread ?", k=2)
@@ -17,12 +19,14 @@ import pickle
 
 def twintSearch(input):
     #nest_asyncio.apply()
+    if os.path.exists("tweets.csv"):
+        os.remove("tweets.csv")
 
     C = twint.Config()
     C.Search = input
     C.Store_csv = True
     C.Hide_output = True
-    C.Since = '2022-08-13'
+    C.Since = '2022-08-01'
     C.Limit = 1000
     C.Store_csv = True
     C.Output = "tweets.csv"
@@ -169,8 +173,6 @@ def returnJson(input, model):
     df_new = sentimentAdd(df_new, model)
     returnedList = createGraph(df_new)
 
-    with open('graph.json', 'w') as f:
-        json.dump(returnedList, f, indent=4)
 
     return json.dumps(returnedList)
     #print(json.dumps(returnedList))

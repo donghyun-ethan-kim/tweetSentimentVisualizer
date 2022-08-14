@@ -46,12 +46,12 @@ function App() {
      }, [links]);
 
 
-  function getData() {
+  function getData(inputVal) {
     axios({
       method: "GET",
       url:"/search",
       params: {
-                    "topic" : "Seoul"
+                    "topic" : inputVal
                 }
     })
     .then((response) => {
@@ -80,7 +80,7 @@ function App() {
   }
 
   useEffect(() => {
-    getData();
+    getData("Georgia Tech");
   }, []);
 
     //end of new line
@@ -90,7 +90,9 @@ function App() {
       <div>
           <Typography variant="h1" style = {{'margin-left': '30px', 'margin-top' : '20px'}}> Tweet Sentiment Visualizer </Typography>
           <Typography variant="h6" style = {{'margin-left': '40px', 'margin-top' : '20px'}}> Enter a topic to analyze! </Typography>
-          <TextField id="outlined-basic" label="Outlined" variant="outlined" style = {{'margin-left': '40px', 'margin-top' : '20px'}}/>
+          <TextField id="outlined-basic" label="Outlined" variant="outlined"  style = {{'margin-left': '40px', 'margin-top' : '20px'}} onChange={(e) => {
+            getData(e.target.value);
+          }}/>
 
           <div style={{
                   position: 'absolute',
