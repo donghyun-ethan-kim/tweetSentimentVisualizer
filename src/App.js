@@ -49,7 +49,10 @@ function App() {
   function getData() {
     axios({
       method: "GET",
-      url:"/data",
+      url:"/search",
+      params: {
+                    "topic" : "Seoul"
+                }
     })
     .then((response) => {
 

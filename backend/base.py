@@ -1,9 +1,11 @@
 from flask import Flask, jsonify
-from Train.train import returnJson
+from flask import request
+from Train.train import returnJson, returnModel
 import json
 
-returnVal = returnJson()
-y = json.loads(returnVal)
+model = returnModel()
+#returnVal = returnJson()
+#y = json.loads(returnVal)
 
 #print(returnVal.nodes)
 api = Flask(__name__)
@@ -12,9 +14,15 @@ api = Flask(__name__)
 #def jsonStuff():
 #    return returnVal
 
+@api.route('/search', methods=['GET'])
+def search():
+    args = request.args.get('topic')
+    returnVal = returnJson("Georgia Tech", model)
+    return returnVal
 
 @api.route('/data')
 def data():
+    returnVal = returnJson("Georgia Tech", model)
     return returnVal
 
 

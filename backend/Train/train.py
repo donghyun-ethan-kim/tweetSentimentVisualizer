@@ -15,21 +15,23 @@ import pickle
 #print(a[1][1]) #r: negative
 
 
-def twintSearch():
+def twintSearch(input):
     #nest_asyncio.apply()
 
     C = twint.Config()
-    C.Search = "Manchester United"
+    C.Search = input
     C.Store_csv = True
-    #C.Hide_output = True
-    C.Since = '2022-07-09'
+    C.Hide_output = True
+    C.Since = '2022-08-13'
     C.Limit = 1000
     C.Store_csv = True
-    C.Output = "soccer-tweets.csv"
+    C.Output = "tweets.csv"
 
     # Run
     twint.run.Search(C)
-
+    file_in = 'tweets.csv'
+    df = pd.read_csv(file_in)
+    return df
 
 def clean_tweet(tweet):
     if type(tweet) == np.float:
@@ -50,10 +52,10 @@ def clean_tweet(tweet):
     return temp
 
 
-def createDf():
+def createDf(df):
     # Read in the tweets
-    file_in = 'soccer-tweets.csv'
-    df = pd.read_csv(file_in)
+    #file_in = 'soccer-tweets.csv'
+    # df = pd.read_csv(file_in)
 
     # replace NaN's with an empty string
     df = df.replace(np.nan, '')
@@ -147,19 +149,23 @@ def createGraph(df_new):
     #return list(s.nodes(data=True))
     return json_graph.node_link_data(s) #return json representation of graph!
 
-def returnJson():
+def returnModel():
+    model = fasttext.train_supervised('Train/tweets.train')
+    return model
+
+def returnJson(input, model):
     # some JSON:
     #x = '{ "name":"John", "age":30, "city":"New York"}'
 
     # parse x:
     #y = json.loads(x)
     #return y
-    model = fasttext.train_supervised('Train/tweets.train')
+    #model = fasttext.train_supervised('Train/tweets.train')
 
     #model = fasttext.train_supervised('tweets.train')
 
-    twintSearch()
-    df_new = createDf()
+    df_first = twintSearch(input)
+    df_new = createDf(df_first)
     df_new = sentimentAdd(df_new, model)
     returnedList = createGraph(df_new)
 
