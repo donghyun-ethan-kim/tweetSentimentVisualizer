@@ -1,35 +1,23 @@
 # Tweet Sentiment Visualizer
 
-Built with a flask backend and React frontend
+* Visualize Sentiment Diffusion on Twitter!
+* Interactive Network Graph!
+* Analyze specific topics!
 
-## Backend
-Step1: Enter the backend directory and create and activate your environment:
+## Demo
 
-For mac/unix users: 
+![Alt text](demo.gif) 
 
-**create:** ```python3 -m venv env```
+## Tech Used
+* Backend: Flask
+* Frontend: React.js
+* Sentiment Analysis: fastText model (Sentiment based on probability of positive class)
+* Network Graph Visualization: react-force-graph with D3.js (d3.scaleOrdinal and d3-scale-chromatic used to color nodes)
 
-**activate:** `source env/bin/activate`
-
-For windows users: 
-
-**create:** `py -m venv env`
-
-**activate:** `.\env\Scripts\activate`
-
-
-Step2: Then install the requirements using:
-`pip install -r requirements.txt`
-
-## Available Scripts
-
-Return to the base directory and run: `npm install` before running the scripts below.
-
-Then, run `npm run start-backend` to start the flask backend server.
-
-Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
-
-Next, run `npm start` to start the frontend section of the application.
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
+## Instructions
+1. Create and activate virtual environment with requirements.txt
+2. Run `npm install`
+3. Run `npm run start-backend`
+4. Open [http://localhost:5000](http://localhost:5000) to access backend
+5. Run `npm start`
+6. Open [http://localhost:3000](http://localhost:3000) to access frontend
