@@ -27,7 +27,7 @@ def twintSearch(input):
     C.Store_csv = True
     C.Hide_output = True
     C.Since = '2022-08-01'
-    C.Limit = 1000
+    C.Limit = 500
     C.Store_csv = True
     C.Output = "tweets.csv"
 

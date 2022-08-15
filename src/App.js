@@ -101,6 +101,7 @@ function App() {
             <ForceGraph2D
               graphData={{ nodes: gdata, links: links }}
               height = {600}
+              //nodeColor={() => 'darkgrey'}
               nodeAutoColorBy="sentiment"
               nodeCanvasObject={(node, ctx, globalScale) => {
                 const label = node.id;
