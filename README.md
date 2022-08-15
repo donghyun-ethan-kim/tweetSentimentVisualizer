@@ -11,7 +11,7 @@
 ## Tech Used
 * Backend: Flask
 * Frontend: React.js
-* Sentiment Analysis: fastText model (Sentiment based on probability of positive class)
+* Sentiment Analysis: fastText model (Sentiment value based on probability of positive class)
 * Network Graph Visualization: react-force-graph with D3.js (d3.scaleOrdinal and d3-scale-chromatic used to color nodes)
 
 ## Instructions
